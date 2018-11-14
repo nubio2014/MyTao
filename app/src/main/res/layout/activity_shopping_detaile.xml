@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mlzq.mytao.activity.ShoppingDetaileActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.youth.banner.Banner
+        android:id="@+id/first_banner"
+        android:layout_width="match_parent"
+        android:layout_height="251dp">
+    </com.youth.banner.Banner>
+
+
+</RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="哈哈哈哈哈哈哈哈哈哈或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或或"
+        android:textSize="14sp"
+        android:textColor="@color/fontcolor3"/>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:background="@drawable/strong_red"
+        android:padding="3dp"
+        android:text="现价:"
+        android:textColor="@color/main_color"/>
+          <TextView
+              android:id="@+id/tv_now_price"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/main_color"
+              android:textSize="16sp"
+              android:text="￥ 14.00"/>
+
+      </LinearLayout>
+        <TextView
+            android:id="@+id/tv_old_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:text=""
+            android:textColor="@color/fontColor9"/>
+<TextView
+    android:id="@+id/tv_count"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:textSize="10sp"
+    android:textColor="@color/fontcolor9"
+    android:text="已售"/>
+
+    </LinearLayout>
+    </ScrollView>
+<TextView
+    android:id="@+id/tv_jump"
+    android:layout_width="match_parent"
+    android:layout_height="44sp"
+    android:gravity="center"
+    android:text="复制并跳转"
+    android:textColor="@color/white"
+    android:background="@color/red_text"/>
+</LinearLayout>
